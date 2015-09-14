@@ -1,0 +1,28 @@
+[FINER] - Sat Aug 17 17:05:19 CDT 2013 : Core.main() : ENTRY
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Launching thread: 0
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Thread created: Thread-1
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Launching thread: 1
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Thread created: Thread-2
+[FINER] - Sat Aug 17 17:05:19 CDT 2013 : Thread-1.run() : ENTRY
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Launching thread: 2
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Thread created: Thread-3
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Launching thread: 3
+[FINER] - Sat Aug 17 17:05:19 CDT 2013 : Thread-2.run() : ENTRY
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Thread created: Thread-4
+[FINER] - Sat Aug 17 17:05:19 CDT 2013 : Thread-3.run() : ENTRY
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Launching thread: 4
+[FINER] - Sat Aug 17 17:05:19 CDT 2013 : Thread-4.run() : ENTRY
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Thread created: Thread-5
+[INFO] - Sat Aug 17 17:05:19 CDT 2013 : TestLogger.main : Five threads created. Waiting for their finalization.
+[FINER] - Sat Aug 17 17:05:19 CDT 2013 : Thread-5.run() : ENTRY
+[FINER] - Sat Aug 17 17:05:20 CDT 2013 : Thread-1.run() : RETURN {0}
+[INFO] - Sat Aug 17 17:05:20 CDT 2013 : TestLogger.main : Thread has finished its execution: Thread-1
+[FINER] - Sat Aug 17 17:05:20 CDT 2013 : Thread-2.run() : RETURN {0}
+[FINER] - Sat Aug 17 17:05:20 CDT 2013 : Thread-3.run() : RETURN {0}
+[INFO] - Sat Aug 17 17:05:20 CDT 2013 : TestLogger.main : Thread has finished its execution: Thread-2
+[FINER] - Sat Aug 17 17:05:20 CDT 2013 : Thread-4.run() : RETURN {0}
+[INFO] - Sat Aug 17 17:05:20 CDT 2013 : TestLogger.main : Thread has finished its execution: Thread-3
+[FINER] - Sat Aug 17 17:05:20 CDT 2013 : Thread-5.run() : RETURN {0}
+[INFO] - Sat Aug 17 17:05:20 CDT 2013 : TestLogger.main : Thread has finished its execution: Thread-4
+[INFO] - Sat Aug 17 17:05:20 CDT 2013 : TestLogger.main : Thread has finished its execution: Thread-5
+[FINER] - Sat Aug 17 17:05:20 CDT 2013 : Core.main() : RETURN
